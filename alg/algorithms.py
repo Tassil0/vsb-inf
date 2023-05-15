@@ -33,7 +33,7 @@ def insertion_sort(arr):
             j -= 1
 
 
-def partion(arr, left: int, right: int) -> int:
+def partition(arr, left: int, right: int) -> int:
     pivot = arr[right]
     i = left
 
@@ -55,7 +55,7 @@ def quick_sort(arr, left: int, right: int) -> None:
     if left > right:
         return
 
-    pivot = partion(arr, left, right)
+    pivot = partition(arr, left, right)
 
     quick_sort(arr, left, pivot - 1)
     quick_sort(arr, pivot + 1, right)
