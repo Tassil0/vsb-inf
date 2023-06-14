@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-git clone git@github.com:Tassil0/vsb-docs.git && cd vsb-docs
+git clone git@github.com:Tassil0/vsb-inf.git && cd vsb-inf
 ```
 
 ## Courses
